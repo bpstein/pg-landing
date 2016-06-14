@@ -1,4 +1,4 @@
-Rails4landing::Application.routes.draw do
+PeerGearLanding::Application.routes.draw do
   resources :subscribers
 
   devise_for :users, controllers: { registrations: "users/registrations" }

@@ -1,4 +1,4 @@
-ruby "2.0.0"
+ruby "2.3.0"
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -21,6 +21,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'json', '~> 1.8.3'
+# gem 'kgio'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -51,11 +53,11 @@ group :tests do
   gem 'database_cleaner'
 end
 
-# ==========
-# = Server =
-# ==========
-# Use unicorn as the app server
-gem 'unicorn'
+# # ==========
+# # = Server =
+# # ==========
+# # Use unicorn as the app server
+# gem 'unicorn'
 
 # ========
 # = Base =
