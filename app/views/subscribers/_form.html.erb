@@ -1,0 +1,29 @@
+<%= form_for @subscriber do |f| %>
+  <% if @subscriber.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= "#{pluralize(@subscriber.errors.count, "error")} prohibited this subscriber from being saved:" %>
+      </h2>
+      <ul>
+        <% @subscriber.errors.full_messages.each do |msg| %>
+          <li>
+            <%= msg %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="row">
+    <div class="col-md-7">
+      <div class="form-group">
+        <%= f.text_field :email, placeholder: "Enter email address" %>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <%= f.submit 'Reserve Your Spot', :class => "btn btn-danger btn-lg" %>
+      <p class="text-muted pam">
+        Beta invites to be sent out soon.
+      </p>
+    </div>
+  </div>
+<% end %>
