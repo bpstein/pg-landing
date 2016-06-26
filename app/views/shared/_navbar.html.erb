@@ -1,22 +1,12 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 ptm">
-      <%= render "shared/twitter_btn" %>
-    </div>
-    <div class="col-md-6 text-right ptm">
-      <% if current_user %>
-        <span class="text-muted">
-          Logged in as
-          <b>
-            <%= current_user.email %>
-          </b>
-          |
-        </span>
-        <%= link_to "Logout", destroy_user_session_path(@resource), method: :delete if current_user %>
-      <% else %>
-        <span class="text-muted">Already invited?</span>
-        <%= link_to "Sign in", new_user_session_path unless current_user %>
-      <% end %>
-    </div>
+<div class="row custom-navbar">
+
+  <div class="col-md-6">
+    <%= render "shared/twitter_btn" %>
   </div>
+
+  <div class="col-md-6 text-right">
+    <span class="navbar-category">ABOUT</span>
+    <span class="navbar-category">CONTACT</span>
+  </div>
+
 </div>

@@ -1,0 +1,38 @@
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+}
+
+.navbar-category {
+  padding: 0 15px 0 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-category:hover {
+  color: red;
+}
+
+.bgvid-container {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+
+#bg-video {
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  background: transparent url(video-bg.jpg) no-repeat;
+  background-size: cover;
+  display: block;
+}
+

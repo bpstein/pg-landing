@@ -1,6 +1,6 @@
 <% if flash[:error] and !flash[:error].blank? %>
   <div class="alert alert-error fade in">
-    <a class="close" data-dismiss="alert" href="#"></a>
+    <a class="close" data-dismiss="alert" href="#">x</a>
     <div class="container">
       <p class="error">
         <%= flash[:error] %>
@@ -10,7 +10,7 @@
 <% end %>
 <% if flash[:notice] and !flash[:notice].blank? %>
   <div class="alert alert-info fade in">
-    <a class="close" data-dismiss="alert" href="#"></a>
+    <a class="close" data-dismiss="alert" href="#">x</a>
     <div class="container">
       <p class="notice">
         <%= flash[:notice] %>
@@ -20,7 +20,7 @@
 <% end %>
 <% if flash[:alert] and !flash[:alert].blank? %>
   <div class="alert alert-warning fade in">
-    <a class="close" data-dismiss="alert" href="#"></a>
+    <a class="close" data-dismiss="alert" href="#">x</a>
     <div class="container">
       <p class="notice">
         <%= flash[:alert] %>
