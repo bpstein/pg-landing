@@ -5,6 +5,7 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
+config.secret_key_base = 'blipblapblup'
 
 module PeerGearLanding
   class Application < Rails::Application
