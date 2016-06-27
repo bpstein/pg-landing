@@ -19,7 +19,7 @@
 }
 
 .navbar-category:hover {
-  color: red;
+  color: #EA898C;
 }
 
 .custom-footer {
@@ -120,5 +120,12 @@ h1 {
 
 .reserve-button {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: #DC3238;
+  border: none;
+}
+
+.reserve-button:hover {
+  background-color: #EA898C;
 }
 
