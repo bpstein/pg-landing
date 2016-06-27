@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:300,400,600';
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 .custom-navbar {
   top: 0;
@@ -14,7 +15,7 @@
   color: #fff;
   font-weight: bold;
   font-size: 15px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-category:hover {
@@ -93,7 +94,7 @@ h1 {
   color: #fff;
   font-weight: 30;
   font-size: 34px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -102,7 +103,7 @@ h1 {
 }
 
 .lead {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #FEFEFE;
 }
@@ -110,14 +111,14 @@ h1 {
 .text-muted {
   text-align: center;
   padding-top: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-group {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .reserve-button {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
