@@ -2,72 +2,26 @@
 <div class="custom-navbar">
   <%= render "shared/navbar" %>
 </div>
-
-<div id="center-screen">
-</div>
-
-<video autoplay muted poster="/videos/homepage.mp4" id="bgvid" loop>
-  <source src="https://s3.amazonaws.com/pg-platform/background-loop.mp4" type="video/webm" loop>
-</video>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div id="bgvid-container">
-  
-  <video muted autoplay poster="/videos/homepage.mp4" loop id="bg-video">
-  </video>
- -->
-
-
-
-
-
-
-
-<!-- 
+ 
 <div class="container">
-  <div class="row">
+  <div class="row main-text">
     <div class="col-md-3"></div>
-    <div class="col-md-6 text-center mtxl">
-      
+    <div class="col-md-6 text-center mtxl" id="center-screen">
+      <%= image_tag "peergear-logo.png", :class => "logo"%>
       <h1 class="heading-l">Rent gear. Save cash. </br> Start your adventure.</h1>
       <h2 class="lead text-muted">
-        Explain in more detail how your app/service will actualy provide that benifit.
+        PeerGear is the world's marketplace for the rental of sporting and outdoors equipment. 
       </h2>
       <div class="mtxl mbxl">
         <%= render "subscribers/form" %>
       </div>
-      <div class="benifit text-left mbxl">
-        <h3 class="heading-s">Re-state Your Primary Benifit</h3>
-        <p class="lead">
-          Describe further how you might provide this benifit perhaps including a screenshot of a mock up.
-        </p>
-      </div>
-      <div class="benifit text-left mbxl">
-        <h3 class="heading-s">Your Secondary Benifit</h3>
-        <p class="lead">
-          Describe further how you might provide this benifit perhaps including a screenshot of a mock up.
-        </p>
-      </div>
-      <div class="benifit text-left">
-        <h3 class="heading-s">Any Other Benifits</h3>
-        <p class="lead">
-          Describe further how you might provide this benifit perhaps including a screenshot of a mock up.
-        </p>
-      </div>
     </div>
     <div class="col-md-3"></div>
   </div>
-</div> -->
+</div> 
+
+<video autoplay muted poster="https://s3.amazonaws.com/pg-platform/background-loop.mp4" id="bgvid" loop>
+  <source src="https://s3.amazonaws.com/pg-platform/background-loop.mp4" type="video/webm" loop>
+</video>
+<div id="video-overlay"></div>
+
