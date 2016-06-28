@@ -138,17 +138,52 @@ h1 {
 .about {
   height: 100vh;
   background-color: #fefefe;
-  z-index: 1000;
   display: block;
 }
 
 .contact {
   height: 100vh;
-  background-color: red;
+  background-color: #ddd;
   z-index: 1000;
   display: block;
 }
 
+.contact-header {
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-contact {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.top-contact:hover {
+  color: #EA898C;
+}
+
+.bottom-contact {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.built-by-2 {
+  padding-top: 280px;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .reserve-button {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .built-by {
@@ -156,8 +191,19 @@ h1 {
   }
 
   .navbar-category {
-    overflow: hidden;
+    display: none;
+  }
+
+  .reserve-button {
     width: 100%;
+  }
+
+  .twitter-follow-button {
+    width: 100%;
+  }
+
+  .bottom-contact {
+    display: none;
   }
 }
 
