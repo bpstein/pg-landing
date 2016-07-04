@@ -103,6 +103,13 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h3 {
+  color: #444;
+  font-weight: 30;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .logo {
   width: 50px;
   height: 50px;
@@ -138,6 +145,7 @@ h1 {
 .about {
   height: 100vh;
   background-color: #fefefe;
+  background-image: '/images/background.jpg';
   display: block;
 }
 
@@ -157,26 +165,81 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.info-section {
+  height: 75vh;
+  text-align: center;
+}
+
+.circle-icon {
+  font-size: 60px;
+}
+
+.encircle {
+  background-color: #fff;
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  padding: 30px 20px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.info-heading {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .top-contact {
   padding-top: 30px;
   text-align: center;
   font-size: 40px;
 }
 
+a {
+  color: #ddd ;
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .fa:hover {
-  color: #EA898C;
   animation: bounce 1s;
 }
 
+#facebook:hover {
+  color: #3b5998;
+}
+
+#instagram:hover {
+  color: #c13584;
+}
+
+#email:hover {
+  color: #fff;
+}
+
 .bottom-contact {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 .built-by-2 {
-  padding-top: 280px;
-  bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.built-by-2:hover {
+  text-decoration: none;
+}
+
+.bottom-banner {
+  bottom: 0;
+  height: 25vh;
+  background-color: #444;
 }
 
 @media screen and (max-width: 1300px) {

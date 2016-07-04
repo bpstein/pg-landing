@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#about-nav").click(function() {
     $('html, body').animate({
-      scrollTop: $('.about').offset().top
+      scrollTop: $('.contact').offset().top
     }, 500);
   });
 
