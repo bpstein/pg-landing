@@ -10,4 +10,8 @@ $(document).ready(function() {
       scrollTop: $('.contact').offset().top
     }, 500);
   });
+
+  $('.contact').on('scroll', function() {
+    $('.encircle').addClass('animate-encircle');
+  });
 })

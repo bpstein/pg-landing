@@ -184,6 +184,23 @@ h3 {
   margin-top: 40px;
 }
 
+.animate-encircle {
+  -moz-animation-name: dropIn;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 0.6s;
+
+  -webkit-animation-name: dropIn;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 0.6s;
+
+  animation-name: dropIn;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out forwards;
+  animation-duration: 0.6s;
+}
+
 .info-heading {
   font-size: 25px;
   font-weight: bold;
@@ -269,6 +286,22 @@ p {
   .bottom-contact {
     display: none;
   }
+
+  .info-section, .contact {
+    height: 160vh;
+    text-align: center;
+  }
+
+  .bottom-banner {
+    bottom: 0;
+    height: 65vh;
+    background-color: #444;
+  }
+
+  .buffer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 @keyframes bounce {
@@ -287,4 +320,3 @@ p {
     transform: translateY(-10px);
   }
 }
-
