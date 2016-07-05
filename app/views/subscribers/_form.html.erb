@@ -15,11 +15,11 @@
   <% end %>
   <div class="row">
     <div class="col-md-7">
-      <div class="form-group">
-        <%= f.text_field :email, placeholder: "Enter email address" %>
+      <div class="form-group" required type="email">
+        <%= f.text_field :email, placeholder: "Enter email address", required: true, type: "email" %>
       </div>
     </div>
-    <div class="col-md-5 font-family: 'Raleway', sans-serif;">
+    <div class="col-md-5 font-family: 'Montserrat', sans-serif;">
       <%= f.submit 'Reserve Your Spot', :class => "btn btn-danger btn-lg reserve-button" %>
       <p class="text-muted pam">
         Beta invites to be sent out soon.
